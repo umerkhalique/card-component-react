@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import CardMain from './CardMain';
+import Qr from './Qr';
 
 const App = () => {
     return (
-        <CardMain/>
+        <div>
+            <CardMain/>
+            <Qr/>
+        </div>
     );
 };
 

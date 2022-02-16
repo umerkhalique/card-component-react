@@ -1,5 +1,5 @@
 import React from 'react';
-import "./style.css";
+import "./ethstyle.css";
 import eth from './images/image-equilibrium.jpg';
 import eth1 from './images/icon-ethereum.svg';
 import clock from './images/icon-clock.svg';
