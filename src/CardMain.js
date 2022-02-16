@@ -3,6 +3,7 @@ import "./style.css";
 import eth from './images/image-equilibrium.jpg';
 import eth1 from './images/icon-ethereum.svg';
 import clock from './images/icon-clock.svg';
+import bio from './images/image-avatar.png';
 
 const CardMain = () => {
     return (
@@ -29,10 +30,20 @@ const CardMain = () => {
                         </div>
                     </div>
                     <div>
-
+                        <hr className="divider"></hr>
                     </div>
-                    <div>
-
+                    <div className="divvv">
+                        <div className="imgdivv">
+                            <img src={bio} className="imgg"></img>
+                        </div>
+                        <div className="content3">
+                            <div>
+                                <p>Creation of</p>
+                            </div>
+                            <div>
+                                <p className="text">Jules Wyvern</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

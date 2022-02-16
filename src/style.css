@@ -11,7 +11,7 @@ body{
 .card{
     background-color: #15273f;
     width: 265px;
-    height: 450px;
+    height: 460px;
     display: block;
     border-radius: 7px;
     
@@ -74,4 +74,30 @@ p{
     width: 15px;
     margin: 13px 10px 10px 20px;
 
+}
+.divider{
+    border: 1px solid #2f4159;
+  border-radius: 5px;
+}
+
+/* bio area*/
+.divvv{
+    display: flex;
+}
+.imgdivv{
+    width: 43px;
+}
+.imgg{
+    width: 28px;
+    margin: 7px 10px 20px 0px;
+    border: 1px solid #e1ebf2;
+    border-radius: 50%
+}
+.content3{
+    display: flex;
+}
+
+.text{
+    margin-left: 3px;
+    color: #ecf4ff;
 }
