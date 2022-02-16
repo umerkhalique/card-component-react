@@ -11,7 +11,7 @@ body{
 .card{
     background-color: #15273f;
     width: 265px;
-    height: 470px;
+    height: 450px;
     display: block;
     border-radius: 7px;
     
@@ -52,4 +52,26 @@ p{
 .content2{
     display: flex;
     justify-content: space-between;
+    
+}
+.svgdiv{
+    width: 100%;
+    display: flex;
+}
+.svg{
+    width: 10px;
+    margin: 13px 10px 10px 0px;
+}
+.svgp{
+    color: #2fe2df;
+    font-weight: bold;
+}
+.clockdiv{
+    width: 100%;
+    display: flex;
+}
+.clock{
+    width: 15px;
+    margin: 13px 10px 10px 20px;
+
 }

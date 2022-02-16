@@ -1,12 +1,11 @@
 import React from 'react';
 import "./style.css";
 import eth from './images/image-equilibrium.jpg';
-
-
-
+import eth1 from './images/icon-ethereum.svg';
+import clock from './images/icon-clock.svg';
 
 const CardMain = () => {
-    return(
+    return (
         <div className="main-div">
             <div className="card">
                 <div className="img">
@@ -20,11 +19,13 @@ const CardMain = () => {
                         <p>Our Equilibrium collection promotes balance and calm.</p>
                     </div>
                     <div className="content2">
-                        <div>
-                        
+                        <div className="svgdiv">
+                            <img className="svg" src={eth1}></img>
+                            <p className="svgp">0.041 ETH</p>
                         </div>
-                        <div>
-                            <p>ddd</p>
+                        <div className="clockdiv">
+                            <img className="clock" src={clock}></img>
+                            <p className="clockp">3 days left</p>
                         </div>
                     </div>
                     <div>
