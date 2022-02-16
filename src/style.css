@@ -1,0 +1,26 @@
+body{
+    background-color: #0d1a2d;
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.card{
+    background-color: #15273f;
+    width: 265px;
+    height: 470px;
+    display: block;
+    border-radius: 7px;
+    
+}
+.img{
+    width: 100%;
+    border-radius: 5%;
+    overflow: hidden;
+}
+img {
+    width: 225px;
+    padding: 20px;
+}
